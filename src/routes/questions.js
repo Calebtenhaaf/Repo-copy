@@ -1,40 +1,40 @@
 /**
  * @type {{
- *  question: string,
- *  answers: [ string, string ] | [ string, string, string ] | [ string, string, string, string ],
- *  correct: number,
- *  time: number
- * }[] }
- */
+*  question: string,
+*  answers: [ string, string ] | [ string, string, string ] | [ string, string, string, string ],
+*  correct: number,
+*  time: number
+* }[] }
+*/
 export const questions = [
-    {
-        question: "This is the first question.",
-        answers: [
-            "True",
-            "False"
-        ],
-        correct: 0,
-        time: 20
-    },
-    {
-        question: "Who made this question?",
-        answers: [
-            "Ben Thomas",
-            "Mr. Bonner",
-            "Sam Mote",
-            "Camryn Verhey"
-        ],
-        correct: 1,
-        time: 20
-    },
-    {
-        question: "How much time is left in this class?",
-        answers: [
-            "So much",
-            "A respectable amount",
-            "Not enough"
-        ],
-        correct: 2,
-        time: 20
-    }
+   {
+       question: "When should you reach out for help?",
+       answers: [
+           "As soon as possible",
+           "Only the day before class"
+       ],
+       correct: 0,
+       time: 20
+   },
+   {
+       question: "What photo editing software did we use the MOST?",
+       answers: [
+           "Pixler X",
+           "Photopea",
+           "Pixler E",
+           "Adobe Lightroom"
+       ],
+       correct: 1,
+       time: 20
+   },
+   {
+       question: "Mr. Bonner normally came to class with a cup of what?",
+       answers: [
+           "Cofee",
+           "Tea",
+           "Water"
+       ],
+       correct: 2,
+       time: 20
+   }
 ]
