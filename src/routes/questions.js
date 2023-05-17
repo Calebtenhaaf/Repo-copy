@@ -70,7 +70,49 @@ export const questions = [
     correct: 1,
     time: 20
    },
-   
+   {
+    question: "How important is color when editing a picture?",
+    answers: [
+        "Very important", 
+        "Ehhh doesn't make much a difference",
+        "Not at all",
+    ],
+    correct: 0,
+    time: 20
+   }, 
+   {
+    question: "What year was the Altair 8800 made?",
+    answers: [
+        "1970",
+        "1975",
+        "1980",
+        "1985",
+    ],
+    correct: 1,
+    time: 20
+   },
+   {
+    question: "When did Microsoft start?",
+    answers: [
+        "1950s",
+        "1960s",
+        "1970s",
+        "1980s",
+    ],
+    correct: 2,
+    time: 20
+   },
+   {
+    question: "How good is your guessing?",
+    answers: [
+        "",
+        "",
+        "",
+        "",
+    ],
+    correct: 3,
+    time: 30
+   }
 
   ]
 
